@@ -1,0 +1,84 @@
+.molti-account-area {
+    &.dashboard{
+        .et_pb_row_1-4_3-4 {
+            margin: 0 1rem;
+            display: flex;
+            flex-direction: column;
+            width: calc(100% - 2rem)!important; 
+
+             /* barra lateral */
+            .et_pb_column_3{
+                background-color: $color__main !important;
+                padding: 35px 0;
+                width: 100%!important;
+
+                .menu-icon-nagringah {
+                    color: #fff;
+                    font-weight: 600;
+                    font-size: 16px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .menu-mobile-nagringah {
+                    visibility: collapse;
+                    max-height: 0;
+                    overflow: hidden;
+
+                    &.active {
+                        visibility: visible;
+                        max-height: 500px;
+                    }
+                }
+            }
+
+            .et_pb_column_4{
+                width: 100% !important;
+                margin-bottom: 80px;
+
+                .pmagic .pm-cover-image{
+                    width: 100%!important;
+                }
+
+                .header-profile {
+                    flex-direction: column;
+
+                    .about, .wishlist {
+                        width: 100%!important;
+                        margin: 0.5rem 0!important;
+                    }
+                }
+
+                .aw-referrals-share-buttons {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+        .yith-wcwl-form{
+            .wishlist_view{
+                li{
+                    .product-checkbox{
+                        display: none;
+                    }
+                    .item-wrapper{
+                        .item-details {
+                            .product-name{
+                                .yith-wcqv-button{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    .additional-info-wrapper {
+                        .additional-info{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

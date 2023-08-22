@@ -1,0 +1,49 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body{
+	font-family: $font__body-primary !important;
+}
+
+a {
+	color: $color__link;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: $color__link-hover;
+	outline: 0;
+	text-decoration: none;
+}
+
+a:focus {
+	outline: none;
+	outline-style: none;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+#post-1223{
+	.et_pb_section_0{
+		z-index: 0 !important;
+	}
+}

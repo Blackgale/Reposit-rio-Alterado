@@ -1,0 +1,140 @@
+/* avaliações */
+
+.nagringah-review {
+    width: 38.5%;
+    display: flex;
+    justify-content: space-between;
+
+    .nagringah-master-review {
+        width: 100%;
+        display: flex;
+        transition: all ease-in-out .2s;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    
+        .nagringah-preview-review {
+            padding: 1.5rem 1rem;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+            border-radius: 15px;
+
+            .nagringah-review-image {
+                height: 64px;
+
+                img{
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 50%;
+                }
+            }
+
+            .nagringah-info-owner {
+                display: flex;
+                flex-direction: column;
+                margin-left: 1rem;
+                
+
+                strong {
+                    font-family: 'Montserrat';
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #000
+                }
+
+                small {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: #000
+
+                }
+            }
+        }
+
+    }    
+}
+
+.nagringah-content-review {
+    width: 58.5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    a {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;        
+        color: #000;
+    }
+
+    &.hide-content {
+        display: none;
+    }
+
+    .stars-content {
+        display: flex;
+        width: 100%;
+    }
+}
+
+.userreviewswshk {
+    padding: 0;
+    
+    // table {
+    //     margin: 0;
+    //     display: flex;
+    // }
+    .wshktableth {
+        a {
+            color: $color__main !important;
+        }
+        
+        strong, small {
+            font-weight: 500;
+            font-size: 12px;
+        }
+        
+        .mcon-image-container{
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+        }
+        
+        .wshkreviewbox {
+            font-weight: 500;
+        }
+        
+        .wshkreviewbox:before {
+            font-weight: 900;
+        }
+        
+        .wshkcomment {
+            margin: 0 5px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            transition: all .3s;
+            padding: 8px;
+            border: 0;
+            background: #FE4E4E!important;
+            border-radius: 5px;
+            position: relative;
+        }
+    }
+}
+

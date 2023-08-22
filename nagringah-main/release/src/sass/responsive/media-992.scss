@@ -1,0 +1,18 @@
+@media (max-width: 1199px) and (min-width: 992px)
+{
+    .molti-account-area {
+        &.dashboard{
+
+            /* barra lateral */
+            .et_pb_column_3{
+                background-color: $color__main !important;
+                padding: 35px 0;
+                width: 30%!important;
+            }
+
+            .et_pb_column_4{
+                width: 67% !important;
+            }
+        }
+    }    
+}

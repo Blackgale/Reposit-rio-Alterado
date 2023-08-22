@@ -1,0 +1,47 @@
+@media (min-width: 992px) and (max-width: 1365px) {
+    .facet_sidebar {
+        display: none;
+    }
+    .molti-account-area {
+        &.dashboard{
+
+            /* barra lateral */
+            .et_pb_column_3{
+                background-color: $color__main !important;
+                padding: 35px 0;
+                width: 30%!important;
+            }
+
+            .et_pb_column_4{
+                width: 67% !important;
+
+                .pmagic .pm-cover-image{
+                    width: 100%!important;
+                }
+
+                .aw-referrals-share-buttons {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    header {
+        .molti-header-9-10 {
+            .line-menu {
+                .icons-header{
+                    width: 60% !important;
+                    .et_pb_search_0_tb_header {
+                        width: 96%!important;
+                    }
+                }
+            }
+        }
+    }
+@media (max-width: 1399px) and (min-width: 1200px)
+{
+  .facet_sidebar
+   {
+    display: none;
+   }
+}}

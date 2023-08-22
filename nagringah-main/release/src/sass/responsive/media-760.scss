@@ -1,0 +1,38 @@
+@media(min-width: 768px) and (max-width: 991px){
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+@media (max-width: 991px) and (min-width: 768px)
+{
+    .molti-account-area {
+        &.dashboard{
+            max-width: auto;
+            .et_pb_row_1-4_3-4 {
+                width: calc(100% - 2rem)!important;
+                margin: 0 1rem;
+
+                 /* barra lateral */
+                .et_pb_column_3{
+                    background-color: $color__main !important;
+                    padding: 35px 0;
+                    width: 30%!important;
+                }
+
+                .et_pb_column_4{
+                    width: 67% !important;
+
+                    .pmagic .pm-cover-image{
+                        width: 100%!important;
+                    }
+
+                    .aw-referrals-share-buttons {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}}

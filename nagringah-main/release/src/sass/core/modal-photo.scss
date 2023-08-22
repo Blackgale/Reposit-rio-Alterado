@@ -1,0 +1,82 @@
+.pm-popup-container{
+
+    .pm-popup-image {
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    #change-cover-pic, #btn-cover-crop, #btn-cover-crop, #change-pic, #btn-crop  {
+        background: $color__main !important;
+        border: none;
+        padding: 7px 14px !important;
+        gap: 9px !important;
+
+        &:hover {
+            background: $color__link !important;
+        }
+    }
+
+    #pg_remove_cover_image_btn, #pg_remove_profile_image_btn {
+        border: none;
+        background-color: transparent;
+        color: $color__main;
+    }
+
+    .pm-popup-info {
+        color: $color__background-hr !important;
+        font-size: 12px !important;
+        font-family: $font__body-primary !important;
+    }
+
+    #cropimage {
+        .pm-dbfl {
+            position: relative;
+            
+            #photoimg {
+                position: absolute;
+                left: 0;
+            }
+
+            &:hover label {
+                border: 2px dashed $color__main;
+                color: $color__main !important;
+            }
+        }
+    }
+
+    #cropcoverimage, #cropimage {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        &:hover label {
+            border: 2px dashed $color__main;
+            color: $color__main !important;
+        }
+
+        label {
+            width: 100%;
+            padding: 1.5rem;
+            border: 2px dashed $color__background-hr;
+            color: $color__background-hr !important;
+            transition: all ease-in-out .2s;
+            cursor: pointer;
+
+            &.over {
+                border: 2px dashed $color__main;
+                color: $color__main !important;
+            }
+        }
+
+        input[type='file'] {
+            opacity: 0;
+            width: 100%;
+            padding: 1.5rem;
+            position: absolute;
+            cursor: pointer;
+            left: 0;            
+        }
+    }
+}
+ 

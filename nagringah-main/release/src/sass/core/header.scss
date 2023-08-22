@@ -1,0 +1,66 @@
+.line-menu {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    .et_pb_column_3_tb_header {
+        max-width: 600px;    
+    }
+
+    .icons-header {
+        display: flex;
+        justify-content: space-between;   
+        width: 100%!important; 
+    }
+
+    .header-menu-nagringah {
+        max-width: 600px;
+    
+        .col-md-2 {
+            min-width: 150px;
+        }
+    
+        .menu {
+            max-width: 400px;
+        }
+    }
+    
+    .header-form {
+        position: relative;
+        height: 40px;
+        margin-left: 0;
+        width: 100% !important;
+
+        &:hover {
+            margin-left: 0 !important;
+        }
+    
+        .et_pb_searchform {
+            position: relative;
+            height: 40px;
+
+            div {
+                display: flex;
+                justify-content: space-between;
+                height: 40px;
+            }
+    
+            input {
+                position: relative;
+                height: 40px;
+                top: 0;
+            }
+    
+            .et_pb_searchsubmit {
+                height: 40px;
+                width: 40px;
+                position: relative;
+                top: 0;
+                right: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

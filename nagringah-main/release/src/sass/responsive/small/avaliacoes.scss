@@ -1,0 +1,33 @@
+/* avaliações */
+@media(max-width: 767.98px){
+    .nagringah-main-review {
+        width: 100%;
+        display: flex;
+        overflow-x: scroll;
+        flex-direction: column;
+        br{
+            display: none;
+        }
+        .nagringah-review {
+            height: auto;
+            width: 135px;
+            margin: 0 0.25rem;
+            display: none;
+
+            .nagringah-review-image {
+                display: none;
+            }
+        }
+
+        .nagringah-content-review {
+            /* width: 280px;
+            left: 0;
+            top: 110px; */
+            display: block;
+            position: inherit !important;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+
+}
